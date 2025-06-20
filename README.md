@@ -45,7 +45,6 @@ A deep learning-based model to detect brain tumors from MRI images, trained and 
 ---
 
 ## Model Architecture
-
 > Here's a summary of the CNN architecture used:
 
 ```python
@@ -54,3 +53,7 @@ Conv2D(64) → ReLU → MaxPooling
 Conv2D(128) → ReLU → MaxPooling  
 Flatten → Dense(128) → Dropout  
 Output Layer (Softmax or Sigmoid)
+```
+---
+
+
