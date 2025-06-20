@@ -83,4 +83,4 @@ Output Layer (Softmax or Sigmoid)
 ---
 
 ##Connect with me
--🔗 LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+-🔗 LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/sruthi-sunke-165828294)
