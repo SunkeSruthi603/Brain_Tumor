@@ -1,4 +1,3 @@
-# Brain_Tumor
 # Brain Tumor Detection using Deep Learning
 
 A deep learning-based model to detect brain tumors from MRI images, trained and evaluated in Google Colab. This project leverages convolutional neural networks (CNNs) for image classification and aims to assist in the early diagnosis of brain tumors.
@@ -21,26 +20,25 @@ A deep learning-based model to detect brain tumors from MRI images, trained and 
 
 ##Demo
 
-> Insert a screenshot or Colab link here  
-> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK)
+> ![image](https://github.com/user-attachments/assets/0fbd99a7-457b-4fc6-a4e1-e35875720234)
+> [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MRhLiGPGnYemvDd_WRTh6VWrW9tg1y1n#scrollTo=RDIRJOEI0MpZ)
 
 ---
 
-## ✅ Features
+##Features
 
 - Classification of MRI brain scans as Tumor (Tumor Type) / No Tumor
 - CNN-based image classifier
 - Trained using data augmentation
-- Real-time prediction support
 - Built and trained on Google Colab
 
 ---
 
 ## Dataset
 
-- Dataset Source: [Kaggle - Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
+- Dataset Source: [Kaggle - Brain MRI Images for Brain Tumor Detection](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)
 - Classes:
-  - `yes` → Tumor Present
+  - `yes` → Tumor Type (glioma, meningioma, pituitary)
   - `no` → No Tumor
 - Format: `.jpg` MRI images
 
