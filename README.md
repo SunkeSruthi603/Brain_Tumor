@@ -11,7 +11,6 @@ A deep learning-based model to detect brain tumors from MRI images, trained and 
 - [Dataset](#-dataset)
 - [Model Architecture](#-model-architecture)
 - [Training Details](#-training-details)
-- [How to Use](#-how-to-use)
 - [Results](#-results)
 - [Future Work](#-future-work)
 - [License](#-license)
@@ -55,5 +54,33 @@ Flatten → Dense(128) → Dropout
 Output Layer (Softmax or Sigmoid)
 ```
 ---
+## Traning 
+- Platform: Google Colab (GPU enabled)
+- Epochs: 15–30 (adjusted per run)
+- Image Size: 128x128
+---
 
+## Results
+- Test Accuracy: 82.46%
+> ![image](https://github.com/user-attachments/assets/44417d38-9d2f-47c1-987d-eb2784f308e8)
 
+---
+
+##Future Work
+- Integrate Grad-CAM for visual explanation
+- Deploy the model via Flask or Streamlit
+- Expand dataset to improve generalization
+- Build mobile/web app for diagnosis
+---
+
+##License
+- This project is licensed under the MIT License.
+
+##Acknowledgements
+- Dataset by Navoneel Chakrabarty (Kaggle)
+- TensorFlow & Keras community
+- Colab for free GPU support
+---
+
+##Connect with me
+-🔗 LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
